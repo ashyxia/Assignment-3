@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- DaisyUI -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
@@ -612,7 +614,7 @@
                 </div>
                 <label class="form-control">
                   <div class="label">
-                    <span class="label-text">Message</span>
+                    <span class="label-text font-bold">Message</span>
                   </div>
                   <textarea class="textarea textarea-bordered input-bg-NL lg:h-60 h-24" placeholder="Write your message"></textarea>
                   <div class="label">
@@ -624,7 +626,57 @@
           </div>
         </div>
       </section>
+      <section>
+        <div class=" input-bg-NL py-8 rounded-md">
+          <h3 class="text-xl font-bold text-center">Social Media</h3>
+          <div class="text-center pt-5">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer p-10 bg-slate-950 text-white text-base-content mt-4 lg:mt-12">
+      <aside>
+        <h3 class="text-xl font-bold">Get In Touch</h3>
+        <p>For inquiries or collaboration,<br> feel free to get in touch. We welcome your questions and <br> look forward to connecting with you.</p>
+        <div>
+          <div class="flex space-x-2 pt-3">
+            <img src="./icons/mail-icon.png" alt="">
+            <p>hockeys@support.com</p>
+          </div>
+          <div class="flex space-x-2 pt-3">
+            <img src="./icons/call-icon.png" alt="">
+            <p>(+62) 123-321-543</p>
+          </div>
+        </div>
+      </aside> 
+       
+      <nav>
+        <header class="footer-title">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Leadership</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">News & Article</a>
+        <a class="link link-hover">Legal Notice</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Support</header> 
+        <a class="link link-hover">Help Center</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adult</a>
+      </nav>
+    </footer>
   </body>
 </html>
