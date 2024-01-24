@@ -37,6 +37,18 @@
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
+      .call-bg{
+        background-color: rgba(188, 237, 109, 0.10);
+      }
+      .email-bg{
+        background-color: rgba(253, 221, 95, 0.10);
+      }
+      .maps-bg{
+        background-color: rgba(98, 156, 243, 0.10);
+      }
+      .input-bg-NL{
+        background-color: rgba(19, 19, 24, 0.03);
+      }
     </style>
   </head>
   <body class=".font-manrope">
@@ -450,7 +462,6 @@
           </div>
         </div>
       </section>
-      <!-- Get In Touch Section -->
       <section>
         <div class="lg:pt-12">
           <div>
@@ -461,12 +472,13 @@
               Question's are The Real Needs. It is far more important than any other topic.
             </p>
           </div>
-          <div class="lg:flex lg:pt-20 sm:p-4 gap-5">
-            <div>
+          
+            <!-- FAQ -->
+          <div class="lg:flex lg:pt-20 sm:p-4 gap-2">
+            <div class="flex-1">
               <figure><img class="rounded-md" src="./Images/11.png" alt=""></figure>
             </div>
-            <!-- Accordian -->
-            <div>
+            <div class="flex-1">
               <div class="collapse collapse-plus ">
                 <input type="radio" name="my-accordion-3" checked="checked" /> 
                 <div class="collapse-title text-xl font-medium">
@@ -520,6 +532,93 @@
                 <div class="collapse-content"> 
                   <p>Our transparent pricing cater to various budgets, offering competitive rates for quality services, ensuring value for every customer.</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Get In Touch Section -->
+        <div class="lg:pt-24">
+          <div>
+            <h3 class="text-xl lg:text-3xl font-bold sm:pt-4 text-center">
+              Get In Touch
+            </h3>
+            <p class="text-base text-center p-6 ">
+              For inquiries or collaboration, feel free to get in touch. We welcome your questions and look forward to connecting with you.
+            </p>
+          </div>
+          <div class="lg:flex gap-4 pt-2 lg:pt-12 ">
+            <div class="border-1 rounded-md p-7">
+              <div class="call-bg rounded-md mt-4 p-6 lg:p-8">
+                <img src="./Images/Group 1171275317.png" alt="">
+                <p>Phone Number :</p>
+                <h4>(+62) 123-321-543</h4>
+              </div>
+              <div class="email-bg rounded-md mt-4 p-6 lg:p-8">
+                <img src="./Images/Group 1171275318.png" alt="">
+                <p>Email :</p>
+                <h4>hockeys@support.com</h4>
+              </div>
+              <div class="maps-bg rounded-md mt-4 p-6 lg:p-8">
+                <img src="./Images/Group 1171275321.png" alt="">
+                <p>Location :</p>
+                <h4>152/1 Mohakhali Wireless Gate</h4>
+              </div>
+            </div>
+            <div>
+              <div class="p-6">
+                <div class="lg:flex gap-4">
+                  <div>
+                    <label class="form-control w-full max-w-xs">
+                      <div class="label">
+                        <span class="label-text font-bold">Your Name</span>
+                      </div>
+                      <input type="text" placeholder="Enter your full name" class="input input-bg-NL w-full max-w-xs" />
+                      <div class="label">
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text font-bold">Your Email</span>
+                    </div>
+                    <input type="text" placeholder="Enter your email" class="input input-bg-NL w-full max-w-xs" />
+                    <div class="label">
+                    </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="lg:flex gap-4">
+                  <div>
+                    <label class="form-control w-full max-w-xs">
+                      <div class="label">
+                        <span class="label-text font-bold">Subject</span>
+                      </div>
+                      <input type="text" placeholder="Enter your subject" class="input input-bg-NL w-full max-w-xs" />
+                      <div class="label">
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text font-bold">Phone Number</span>
+                    </div>
+                    <input type="text" placeholder="Enter your phone number" class="input input-bg-NL w-full max-w-xs" />
+                    <div class="label">
+                    </div>
+                    </label>
+                  </div>
+                </div>
+                <label class="form-control">
+                  <div class="label">
+                    <span class="label-text">Message</span>
+                  </div>
+                  <textarea class="textarea textarea-bordered input-bg-NL lg:h-60 h-24" placeholder="Write your message"></textarea>
+                  <div class="label">
+                    <button class="btn  bg-sports-primary text-white w-[320px] lg:w-[500px]">Secondary</button>
+                  </div>
+                </label>
               </div>
             </div>
           </div>
